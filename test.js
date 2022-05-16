@@ -1,2 +1,3 @@
-console.log("AAAA");
+gem = 1;
 
+var dict = {}
