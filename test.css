@@ -1,0 +1,52 @@
+a{
+    text-decoration: none;
+}
+a:visited{
+    color : skyblue;
+}
+a:link{
+    color : skyblue;
+}
+a:hover{
+    color : blue;
+}
+html{
+    background: linear-gradient(45deg, skyblue, white);
+    height: 100%;
+}
+body{
+    
+    margin: 0px;
+}
+h1 {
+    color:skyblue;
+    text-align: center;
+    font-size: 20px;
+    border-bottom: solid;
+    border-color: blue;
+    border-width: 1px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin: 0;
+}
+ol {
+    margin: 0;
+    border-right: solid blue;
+    width: 80px;
+    padding: 10px;
+    background: linear-gradient(to right, white 10%, grey)
+}
+li {
+    margin-bottom: 5px;
+}
+#grid {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+
+}
+#grid ol {
+    padding-left: 33px;
+}
+#grid #article{
+    padding-right: 22px;
+}
