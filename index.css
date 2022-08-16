@@ -1,0 +1,14 @@
+div{
+    margin: 0;
+    background-color: aqua;
+
+}
+body{
+    margin: 0px;
+}
+p{
+    margin: 0px;
+}
+.hiden{
+    display: none;
+}

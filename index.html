@@ -1,54 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
+
 <head>
-    <meta charset="utf-8">
-    <title>청휘석 캘린더</title>
-    <link rel="stylesheet" href="test.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="stylesheet" href="index.css">
+	<script src="index.js" defer></script>
+	
+	<title>청휘석 계산기</title>
 </head>
-
 <body>
-    <h1><a href="index.html">Blue Archive Gem Celender</a></h1>
+	<input id="have" type="number" min="0">
+	<form id="check">
+		<label><input type="checkbox" value="40">40</label>
+		<label><input type="checkbox" value="20">20</label>
+	</form>
 
-    <div id="grid">
-        <ol>
-            <li><a href="청휘석.html">청휘석</a></li>
-            <li><a href="모으는법.html">모으는법</a></li>
-            <li><a href="커뮤니티.html">커뮤니티</a></li>
-
-        </ol>
-
-
-        <div id="article">
-            <h2>블루아카 청휘석 수급 웹페이지 만들기</h2>
-            <p>
-                선수지식
-                
-                
-                html
-                자바스크립트
-                Css
-                
-                할일트리
-                
-                1. 기본
-                html로 기본 페이지 틀 작성해야됨
-                자바스크립트 문법 복습해서 계산식 만들어야됨
-                기본기능은 무조건 현재날짜 기준으로
-                현재 보유중 청휘석 + 얻을수있는 청휘석 조건별로 추가해서 계산가능
-                
-                
-                2. 디자인과 부가기능
-                
-                픽업예상날짜 지정해서 그때가지 청휘석 얼마나 얻을지 예측가능
-                
-                그러면 현재 총력전 일정, 이벤트일정, 사료일정을 알아야 됨
-                
-                
-                사실상 이건 기본기 연습 + html 복습 + css 기초 학습
-                을 위해서 만드는거기 때문에
-                
-                css로 디자인을 어떻게 만들지 고민해봐야함            </p>
-        </div>
-    </div>
+	<input type="button" value="보이기" onclick="hide()">
+	<input type="date" id="dateSelect">
+	<div id="datesBody"></div>
 </body>
 </html>
