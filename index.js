@@ -140,3 +140,19 @@ function hide(){
 
 
 // 코드실행
+
+let aa = document.querySelector(".a")
+
+let bb = document.querySelector(".b")
+
+window.navigator.geolocation.getCurrentPosition(po,er)
+
+function po(e){
+    aa.innerText = e.coords.latitude
+    bb.innerText = e.coords.longitude
+    console.log(e)
+}
+
+function er(){
+
+}
