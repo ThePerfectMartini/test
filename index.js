@@ -154,5 +154,5 @@ function po(e){
 }
 
 function er(){
-
+    console.log("에러")
 }
